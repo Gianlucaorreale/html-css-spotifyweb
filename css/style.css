@@ -29,6 +29,15 @@ body {
     z-index: 10;
 }
 
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.box-flex {
+    display: flex;
+}
+
 header {
     height: 100px;
     display: flex;
@@ -46,9 +55,29 @@ main {
 li {
     color: white;
     list-style-type:none;
-    margin: 10px;
+    padding: 10px;
 }
 
 .btn {
+    color: white;
+}
+
+.main-container {
+    margin-left: 200px;
+}
+
+.box-container {
+    width: calc(100% / 6 - 20px) ;
+    margin-right: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+.description {
     color: white;
 }
