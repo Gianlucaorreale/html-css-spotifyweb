@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding-left: 10px;
+    
+}
+
+.logo {
+    color: white;
+}
+
+.side-bar {
+    padding: 20px;
+    width: 200px;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #080B12;
+    filter: opacity(90%);
+}
+
+main {
+    background-color: #080B12;
+}
+
+
+li {
+    color: white;
+    list-style-type:none;
+    margin: 10px;
+}
+
+.btn {
+    color: white;
+}
