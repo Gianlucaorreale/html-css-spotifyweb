@@ -69,8 +69,10 @@ hr {
     margin-top: 10px;
 }
 
-.p-10 {
-    padding: 10px;
+.padding {
+    padding-left: 10px;
+    padding-top: 5px;
+
 }
 .logo {
     height: 50px;
@@ -86,6 +88,25 @@ hr {
 
 
 /*RESPONSIVE*/
+
+@media screen and (max-width:992px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+}
+
 @media screen and (max-width:480px) {
     .large-screen {
         display: none;
@@ -103,21 +124,5 @@ hr {
         margin-top: 410px;
     }
 }
-@media screen and (max-width:768px) {
-    .small-screen {
-        display: none;
-    }
-    .large-screen {
-        display: inline ;
-    }
-}
 
-@media screen and (max-width:992px) {
-    .small-screen {
-        display: none;
-    }
-    .large-screen {
-        display: inline ;
-    }
-}
 
