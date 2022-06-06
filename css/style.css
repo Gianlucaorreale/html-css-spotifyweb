@@ -160,6 +160,16 @@ sub {
     .large-screen {
         display: inline ;
     }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .cards-container {
+        width: 115px;
+    }
+
+    
 }
 
 @media screen and (max-width:480px) {
@@ -177,6 +187,18 @@ sub {
     }
     .icon {
         margin-top: 410px;
+    }
+
+    .ul-flex {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .upper-content {
+        height: calc(100vh - 50px);
     }
 }
 
