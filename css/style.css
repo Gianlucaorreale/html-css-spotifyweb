@@ -97,7 +97,15 @@ button {
     margin-right: 5px;
     
 }
+.row-space {
+    display: flex;
+    justify-content: space-between;
+}
 
+.flex {
+    display: flex;
+    align-items: center;
+}
 .d-flex {
     display: flex;
     justify-content: flex-end;
@@ -112,6 +120,15 @@ button {
     display: flex;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.sinister {
+    height: 50px;
+}
+
 .cards-container {
     width: calc(100% / 6 - 20px );
     margin: 10px;
@@ -123,7 +140,7 @@ h3 {
 
 img {
     height: 115px;
-    width: 100%;
+    
 }
 .description {
     color:white;
@@ -143,6 +160,16 @@ sub {
 
 
 /*RESPONSIVE*/
+
+@media screen and (max-width:1400px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+   
+}
 
 @media screen and (max-width:992px) {
     .small-screen {
