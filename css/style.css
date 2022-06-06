@@ -27,7 +27,7 @@ body {
 main {
     height: 100%;
     margin-left: 200px;
-    background-color: lightgray;
+    background-color:#141922;
     overflow-y: auto;
 }
 
@@ -60,6 +60,7 @@ li {
     list-style-type: none;
     line-height: 2;
     color:lightgrey;
+    padding-right: 12px;
 }
 
 hr {
@@ -100,9 +101,45 @@ button {
 .d-flex {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
+.ul-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cards-container {
+    width: calc(100% / 6 - 20px );
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+img {
+    height: 115px;
+    width: 100%;
+}
+.description {
+    color:white;
+}
+
+.title {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+sub {
+    color:lightgray
+}
+
+.radius {
+    border-radius: 50%;
+}
 
 
 /*RESPONSIVE*/
