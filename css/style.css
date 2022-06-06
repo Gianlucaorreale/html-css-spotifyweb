@@ -4,20 +4,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .upper-content {
-    background-color: purple;
     height: calc(100vh - 100px);
     overflow-y: auto;
     position: relative;
 }
 
 .side-bar {
-    background-color: lightgreen;
+    background-color: black;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     width: 200px;
+    color:lightgrey;
 }
 
 main {
@@ -36,5 +40,62 @@ background-color: bisque;
 
 footer {
     height: 100px;
-    background-color: black;
+    background-color: #282828;
+    filter: opacity(95%);
+}
+
+.account {
+    margin-top: 124px;
+}
+
+/*UTILITIES*/
+a {
+    text-decoration: none;
+    color:lightgrey;
+}
+
+li {
+    font-size: 12px;
+    list-style-type: none;
+    line-height: 2;
+    color:lightgrey;
+}
+
+hr {
+    color:lightgrey;  
+}
+
+.m-10 {
+    margin-top: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+.logo {
+    height: 50px;
+}
+
+.small-logo {
+    height: 25px;
+}
+.margin {
+    margin-left: 6px;
+}
+
+.icon {
+    margin-top: 410px;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:480px) {
+    .large-screen {
+        display: none;
+    }
+    .side-bar {
+        width: 44px;
+    }
+    main {
+        margin-left: 44px;
+    }
 }
