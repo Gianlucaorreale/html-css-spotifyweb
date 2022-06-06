@@ -1,106 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-    padding-left: 10px;
-    
-}
-
-.logo {
-    color: white;
+.upper-content {
+    background-color: purple;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    position: relative;
 }
 
 .side-bar {
-    padding: 20px;
-    width: 200px;
-    background-color: black;
-    height: 100vh;
-    position: fixed;
+    background-color: lightgreen;
+    position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    z-index: 5;
-}
-
-.d-flex {
-    display: flex;
-    justify-content: center;
-}
-
-.box-flex {
-    display: flex;
-}
-
-header {
-    height: 100px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #080B12;
-    filter: opacity(90%);
+    bottom: 0;
+    width: 200px;
 }
 
 main {
-    background-color: #080B12;
-}
-
-
-li {
-    color: white;
-    list-style-type:none;
-    padding: 10px;
-}
-
-.btn {
-    color: white;
-}
-
-.main-container {
+    height: 100%;
     margin-left: 200px;
+    background-color: lightgray;
+    overflow-y: auto;
 }
 
-.box-container {
-    width: calc(100% / 6 - 20px) ;
-    margin-right: 10px;
-}
-
-.box {
-    width: 100%;
-    height: 110px;
-    background-color: red;
-    margin: 10px;
-}
-
-.description {
-    color: white;
-}
-
-.section-name{
-    color: white;
-}
-
-.border {
-    border-radius: 50%;
-}
-
-.most-popular {
-    margin-bottom:100px;
+header {
+position: sticky;
+top: 0;
+height: 80px;
+background-color: bisque;
 }
 
 footer {
-    background-color: #282828;
     height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    margin-top: 566px;
+    background-color: black;
 }
