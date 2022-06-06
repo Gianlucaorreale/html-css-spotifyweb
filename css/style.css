@@ -83,14 +83,15 @@ hr {
     margin-left: 6px;
 }
 
-.icon {
-    margin-top: 410px;
-}
+
 
 /*RESPONSIVE*/
 @media screen and (max-width:480px) {
     .large-screen {
         display: none;
+    }
+    .small-screen {
+        display: inline ;
     }
     .side-bar {
         width: 44px;
@@ -98,4 +99,25 @@ hr {
     main {
         margin-left: 44px;
     }
+    .icon {
+        margin-top: 410px;
+    }
 }
+@media screen and (max-width:768px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+}
+
