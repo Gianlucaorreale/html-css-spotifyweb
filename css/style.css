@@ -31,6 +31,10 @@ main {
     overflow-y: auto;
 }
 
+
+
+
+
 header {
 position: sticky;
 top: 0;
@@ -111,9 +115,10 @@ button {
     justify-content: flex-end;
 }
 
-.ul-flex {
+.ul-flex  {
     display: flex;
     justify-content: center;
+    
 }
 
 .row {
@@ -158,8 +163,26 @@ sub {
     border-radius: 50%;
 }
 
+/*EFFECTS*/
+.ul-flex:hover li {
+    transform: translateY(-10px) scale(1.05);
+}
+
+.cards-container:hover img {
+    transform: translateY(-10px) scale(1.05); 
+}
+
 
 /*RESPONSIVE*/
+@media screen and (max-width:1600px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+   
+}
 
 @media screen and (max-width:1400px) {
     .small-screen {
