@@ -49,9 +49,7 @@ footer {
     filter: opacity(95%);
 }
 
-.account {
-    margin-top: 124px;
-}
+
 
 /*UTILITIES*/
 a {
@@ -67,6 +65,10 @@ li {
     padding-right: 12px;
 }
 
+p {
+    color: white;
+}
+
 hr {
     color:lightgrey;  
 }
@@ -77,6 +79,7 @@ hr {
 
 .account {
     height: 80px;
+    padding: 20px;
 }
 
 .m-10 {
@@ -88,6 +91,16 @@ hr {
     padding-top: 5px;
 
 }
+
+
+.block-top {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
 .logo {
     height: 50px;
 }
@@ -113,6 +126,12 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.row-timing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .flex {
     display: flex;
@@ -177,7 +196,7 @@ sub {
 .progress-bar {
     background-color: lightgrey;
     height: 2px;
-    width: 200px;
+    width: 100%
 }
 
 /*EFFECTS*/
