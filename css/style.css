@@ -71,6 +71,14 @@ hr {
     color:lightgrey;  
 }
 
+.playlist {
+    height: calc(100% -80px);
+}
+
+.account {
+    height: 80px;
+}
+
 .m-10 {
     margin-top: 10px;
 }
@@ -163,14 +171,29 @@ sub {
     border-radius: 50%;
 }
 
+.play, .options{
+    margin-top: 20px;
+}
+.progress-bar {
+    background-color: lightgrey;
+    height: 2px;
+    width: 200px;
+}
+
 /*EFFECTS*/
-.ul-flex:hover li {
-    transform: translateY(-10px) scale(1.05);
+li:hover  {
+    transform: translateY(-5px) scale(1.05);
 }
 
 .cards-container:hover img {
     transform: translateY(-10px) scale(1.05); 
 }
+
+.d-flex:hover button {
+    transform: translateY(-10px) scale(1.05); 
+}
+
+
 
 
 /*RESPONSIVE*/
@@ -222,6 +245,27 @@ sub {
     
 }
 
+@media screen and (max-width:744px){
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: inline ;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .cards-container {
+        width: 115px;
+    }
+
+    .ul-flex {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width:480px) {
     .large-screen {
         display: none;
@@ -249,6 +293,10 @@ sub {
 
     .upper-content {
         height: calc(100vh - 50px);
+    }
+
+    .play, .options {
+        display: none;
     }
 }
 
