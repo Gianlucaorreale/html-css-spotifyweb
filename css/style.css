@@ -202,6 +202,11 @@ sub {
 /*EFFECTS*/
 li:hover  {
     transform: translateY(-5px) scale(1.05);
+    
+}
+
+a:hover {
+    color: white;
 }
 
 .cards-container:hover img {
@@ -316,6 +321,9 @@ li:hover  {
 
     .play, .options {
         display: none;
+    }
+    .sinister {
+        height: 40px;
     }
 }
 
